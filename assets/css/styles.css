@@ -1,0 +1,382 @@
+/* General structure */
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+p {
+  color: rgb(124, 37, 218);
+  margin-top: 0;
+  text-align: left;
+  font-size: 1.3rem;
+  padding: 2% 5%;
+}
+
+@media (max-width: 992px) {
+  p {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+}
+
+
+.text-center {
+  text-align: center!important;
+}
+
+.text-right {
+  position: relative;
+  right: 15%;
+  text-align: right!important;
+}
+
+
+.text-left {
+  text-align: center;
+}
+
+
+
+/* Top screen */
+
+@media (min-width:1200px) {
+  .speech-objectif {
+    text-align: center;
+  }
+}
+
+
+#top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+@media (min-width:1200px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+  /* titre */
+  h1 {
+    color: #66BFBF;
+    font-size: 5rem;
+    margin: 50px auto 50px auto;
+    font-family: 'Sacramento', cursive;
+  }
+
+  /* image */
+  #mountain {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  @media (min-width: 992px) {
+    .second-cloud {
+      position: relative;
+      top: 30%;
+      max-width: 100%;
+      margin-bottom: 20%;
+      margin-top: 0;
+    }
+  }
+/*  Middle screen */
+
+
+
+.middle-container {
+  background-color: #BCCEF8;
+}
+
+@media (min-width: 300px) {
+  #david {
+    max-width: 45%;
+    position: relative;
+    bottom: 7%;
+  }
+}
+
+@media (min-width: 992px) {
+  #skills {
+    position: relative;
+    top: 15%;
+    max-width: 100%;
+    margin-bottom: 20%;
+    margin-top: 0;
+  }
+}
+
+
+@media (max-width: 992px) {
+  #skills {
+    position: relative;
+    top: 5%;
+    max-width: 100%;
+    margin-bottom: 20%;
+    margin-top: 0;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .compétences-digitales {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .compétences-digitales {
+    margin-right: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .formation-diplomes {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .formation-diplomes {
+    margin-right: 22%;
+  }
+}
+
+.comptétences {
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+.formation-diplomes{
+  display: block;
+  text-align: center;
+}
+
+
+
+.diploma {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .diploma {
+    position: relative;
+    top: 12%;
+  }
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3%;
+  list-style: none;
+  color: rgb(124, 37, 218);
+  font-size: 1.3rem;
+}
+
+li{
+   position: relative;
+   right: 15%;
+}
+
+@media (max-width: 900px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  list-style: none;
+  color: rgb(124, 37, 218);
+  font-size: 1.2rem;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .explication{
+    margin-top: 12%;
+    
+  }
+}
+
+@media (min-width: 900px) {
+  .compétences-digitales{
+    position: relative;
+    left: 2%;
+    top: 20%;
+    
+  }
+}
+
+@media (max-width: 900px) {
+  .second-hr{
+    position: relative;
+    right: 10%;
+    top: 12%;
+    
+  }
+}
+
+@media (min-width: 900px) {
+  .second-hr{
+    position: relative;
+    left: 10%;
+    top: 12%;
+    
+  }
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+/*  Bottom screen */
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+
+
+.copyright {
+  text-align: center;
+  color: #EAF6F6;
+  font-size: 1.25rem;
+  padding: 20px 0;
+}
+
+.final{
+  text-align: center;
+}
+
+.footer-link{
+  color: rgb(124, 37, 218);
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
